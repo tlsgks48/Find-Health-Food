@@ -14,3 +14,6 @@
 * 나의 관심 기능(이달의 음식 & 건강식품에서 관심이 있는 것을 체크하면, 체크 한 것들이 나의 관심 란에서 확인 할 수 있다.)
 * 실시간 다대다(오픈 채팅방) 채팅 기능
 * 프로필 기능(프로필 사진 변경, 프로필 수정, 회원탈퇴, 로그아웃 등)
+
+## 데모 영상
+[데모 영상](https://drive.google.com/file/d/1WntZVHUlhxrDs5uU2f0SQhCoAaqPgA2S/view?usp=sharing)
