@@ -25,5 +25,12 @@
 ![메뉴2](https://user-images.githubusercontent.com/58352779/77735881-a965c300-704e-11ea-9c0c-894e11e18c19.PNG)
 ![메뉴3](https://user-images.githubusercontent.com/58352779/77735884-a9fe5980-704e-11ea-9eb1-a95a657d94d1.PNG)
 
-* 건강식품 체크 작성하기
+* 건강식품 체크 작성하기 & 건강식품 상세보기
 
+![메뉴1 작성하기](https://user-images.githubusercontent.com/58352779/77735984-df0aac00-704e-11ea-849d-dacc0a7305d3.PNG)
+![메뉴1 상세보기](https://user-images.githubusercontent.com/58352779/77735989-e16d0600-704e-11ea-8253-06a1424b8432.PNG)
+
+* 채팅방 목록과 오픈채팅방(3명이서 대화한 이미지)
+
+![채팅방 목록](https://user-images.githubusercontent.com/58352779/77736036-fba6e400-704e-11ea-9d70-533aafdf3bc6.PNG)
+![채팅방](https://user-images.githubusercontent.com/58352779/77736042-fcd81100-704e-11ea-861f-a46966f2807b.PNG)
