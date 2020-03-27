@@ -30,7 +30,7 @@
 ![메뉴1 작성하기](https://user-images.githubusercontent.com/58352779/77735984-df0aac00-704e-11ea-849d-dacc0a7305d3.PNG)
 ![메뉴1 상세보기](https://user-images.githubusercontent.com/58352779/77735989-e16d0600-704e-11ea-8253-06a1424b8432.PNG)
 
-* 채팅방 목록과 오픈채팅방(3명이서 대화한 이미지)
+* 채팅방 목록과 오픈채팅방(3명이서 대화한 이미지 : 사용자 핸드폰 2개, Nox)
 
 ![채팅방 목록](https://user-images.githubusercontent.com/58352779/77736152-37da4480-704f-11ea-9711-a235ea7de7c6.PNG)
 ![채팅방](https://user-images.githubusercontent.com/58352779/77736042-fcd81100-704e-11ea-861f-a46966f2807b.PNG)
