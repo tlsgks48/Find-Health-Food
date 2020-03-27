@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu1_1">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_menu1_1_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintVertical_weight="9"
+        android:scrollbarFadeDuration="0"
+        android:scrollbarSize="5dp"
+        android:scrollbarThumbVertical="@android:color/darker_gray"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/button_menu1_1_insert"
+        app:layout_constraintTop_toTopOf="parent"
+        ></android.support.v7.widget.RecyclerView>
+
+
+    <Button
+        android:id="@+id/button_menu1_1_insert"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="데이터 추가"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recycler_menu1_1_list"
+        />
+
+</android.support.constraint.ConstraintLayout>

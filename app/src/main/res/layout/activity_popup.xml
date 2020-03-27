@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PopupActivity"
+    >
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#84acd1"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textColor="#FFFFFF"
+        android:text="저장할 자료" />
+
+    <EditText
+        android:id="@+id/pop_edt_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ID"
+         />
+
+    <EditText
+        android:id="@+id/pop_edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="NAME"
+         />
+
+    <Button
+        android:id="@+id/pop_btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onSaveData"
+        android:text="자료 저장" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#84acd1"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textColor="#FFFFFF"
+        android:text="불러온 자료" />
+
+    <TextView
+        android:id="@+id/pop_tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:hint="ID"
+         />
+
+    <TextView
+        android:id="@+id/pop_tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:hint="NAME"
+         />
+
+    <Button
+        android:id="@+id/pop_btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onSearchData"
+        android:text="자료 불러오기" />
+</LinearLayout>

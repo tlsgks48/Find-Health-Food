@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu5">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="오늘 건강식품 머먹지"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="채팅방 목록"
+        android:background="@android:color/darker_gray"
+
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/menu5_chatroom_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginBottom="6dp"
+
+        android:background="@color/com_facebook_button_background_color_selected"
+        android:text="채팅방 추가하기" />
+
+    <ListView
+        android:id="@+id/menu5_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <!--    <android.support.v7.widget.RecyclerView
+            android:id="@+id/menu5_Recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+        </android.support.v7.widget.RecyclerView>-->
+
+
+<!--    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="오늘 건강식품 머먹지"
+            android:textSize="40dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="채팅방 목록"
+                    android:textSize="30dp" />
+
+
+                <Button
+                    android:id="@+id/menu5_chatroom_add"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:text="채팅방 추가하기" />
+
+
+            </LinearLayout>
+
+
+
+    </LinearLayout>-->
+
+
+</LinearLayout>

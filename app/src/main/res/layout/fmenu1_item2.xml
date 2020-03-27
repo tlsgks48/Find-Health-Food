@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_shape"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/checkbox_fmenu1_item2_hour_min"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:text="시간" />
+
+            <TextView
+                android:id="@+id/checkbox_fmenu1_item2_eat_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:text="복용개수" />
+
+            <CheckBox
+                android:id="@+id/checkbox_fmenu1_item2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableBottom="?android:attr/listChoiceIndicatorMultiple"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="a"/>
+
+            <TextView
+                android:id="@+id/checkbox_fmenu1_item2_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_shape"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/checkbox_fmenu1_item2_hour_min_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:text="시간" />
+
+            <TextView
+                android:id="@+id/checkbox_fmenu1_item2_eat_count_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:text="복용개수" />
+
+            <CheckBox
+                android:id="@+id/checkbox_fmenu1_item2_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableBottom="?android:attr/listChoiceIndicatorMultiple"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="a"/>
+
+            <TextView
+                android:id="@+id/checkbox_fmenu1_item2_time_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
