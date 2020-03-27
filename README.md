@@ -32,5 +32,5 @@
 
 * 채팅방 목록과 오픈채팅방(3명이서 대화한 이미지)
 
-![채팅방 목록](https://user-images.githubusercontent.com/58352779/77736091-19744900-704f-11ea-9731-08ee78797061.PNG)
+![채팅방 목록](https://user-images.githubusercontent.com/58352779/77736152-37da4480-704f-11ea-9711-a235ea7de7c6.PNG)
 ![채팅방](https://user-images.githubusercontent.com/58352779/77736042-fcd81100-704e-11ea-861f-a46966f2807b.PNG)
